@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jetbrains Mono";
+}
+
+body {
+    
+    background-color: #000000;
+    color: #333;
+    background-color: ;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #000000;
+    color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #818181;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #CB6CE6;
+    text-decoration: none;
+    transform: scale(1.06);
+    display: inline-block;
+    transition: .3s;
+}
+
+section {
+    padding: 60px 0;
+    background-color: #fff;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#foto-perfil {
+    margin-left: 32%;
+    margin-bottom: 50px;
+}
+
+.projeto {
+    display: inline-block;
+    width: 30%;
+    margin: 0 1.5%;
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.projeto img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.icones-redes{
+    padding-left: 200px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.icone-rede {
+    height: auto;
+    width: 5%;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
